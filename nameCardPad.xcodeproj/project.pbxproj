@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6221C57499B00302B55 /* AppDelegate.swift */; };
+		88C3E6251C57499B00302B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6241C57499B00302B55 /* ViewController.swift */; };
+		88C3E6281C57499B00302B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E6261C57499B00302B55 /* Main.storyboard */; };
+		88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */; };
+		88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62C1C57499B00302B55 /* Assets.xcassets */; };
+		88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */; };
+		88C3E63B1C57499C00302B55 /* nameCardPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E63A1C57499C00302B55 /* nameCardPadTests.swift */; };
+		88C3E6461C57499C00302B55 /* nameCardPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6451C57499C00302B55 /* nameCardPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88C3E6371C57499C00302B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C3E6171C57499B00302B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C3E61E1C57499B00302B55;
+			remoteInfo = nameCardPad;
+		};
+		88C3E6421C57499C00302B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C3E6171C57499B00302B55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C3E61E1C57499B00302B55;
+			remoteInfo = nameCardPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88C3E61F1C57499B00302B55 /* nameCardPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nameCardPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3E6221C57499B00302B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88C3E6241C57499B00302B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88C3E6271C57499B00302B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nameCardPad.xcdatamodel; sourceTree = "<group>"; };
+		88C3E62C1C57499B00302B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88C3E62F1C57499B00302B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C3E6311C57499B00302B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3E6361C57499C00302B55 /* nameCardPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameCardPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3E63A1C57499C00302B55 /* nameCardPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCardPadTests.swift; sourceTree = "<group>"; };
+		88C3E63C1C57499C00302B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3E6411C57499C00302B55 /* nameCardPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameCardPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C3E6451C57499C00302B55 /* nameCardPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCardPadUITests.swift; sourceTree = "<group>"; };
+		88C3E6471C57499C00302B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C3E61C1C57499B00302B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E6331C57499C00302B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E63E1C57499C00302B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C3E6161C57499B00302B55 = {
+			isa = PBXGroup;
+			children = (
+				88C3E6211C57499B00302B55 /* nameCardPad */,
+				88C3E6391C57499C00302B55 /* nameCardPadTests */,
+				88C3E6441C57499C00302B55 /* nameCardPadUITests */,
+				88C3E6201C57499B00302B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C3E6201C57499B00302B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C3E61F1C57499B00302B55 /* nameCardPad.app */,
+				88C3E6361C57499C00302B55 /* nameCardPadTests.xctest */,
+				88C3E6411C57499C00302B55 /* nameCardPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C3E6211C57499B00302B55 /* nameCardPad */ = {
+			isa = PBXGroup;
+			children = (
+				88C3E6221C57499B00302B55 /* AppDelegate.swift */,
+				88C3E6241C57499B00302B55 /* ViewController.swift */,
+				88C3E6261C57499B00302B55 /* Main.storyboard */,
+				88C3E62C1C57499B00302B55 /* Assets.xcassets */,
+				88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */,
+				88C3E6311C57499B00302B55 /* Info.plist */,
+				88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */,
+			);
+			path = nameCardPad;
+			sourceTree = "<group>";
+		};
+		88C3E6391C57499C00302B55 /* nameCardPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C3E63A1C57499C00302B55 /* nameCardPadTests.swift */,
+				88C3E63C1C57499C00302B55 /* Info.plist */,
+			);
+			path = nameCardPadTests;
+			sourceTree = "<group>";
+		};
+		88C3E6441C57499C00302B55 /* nameCardPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88C3E6451C57499C00302B55 /* nameCardPadUITests.swift */,
+				88C3E6471C57499C00302B55 /* Info.plist */,
+			);
+			path = nameCardPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C3E61E1C57499B00302B55 /* nameCardPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3E64A1C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPad" */;
+			buildPhases = (
+				88C3E61B1C57499B00302B55 /* Sources */,
+				88C3E61C1C57499B00302B55 /* Frameworks */,
+				88C3E61D1C57499B00302B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nameCardPad;
+			productName = nameCardPad;
+			productReference = 88C3E61F1C57499B00302B55 /* nameCardPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88C3E6351C57499C00302B55 /* nameCardPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3E64D1C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadTests" */;
+			buildPhases = (
+				88C3E6321C57499C00302B55 /* Sources */,
+				88C3E6331C57499C00302B55 /* Frameworks */,
+				88C3E6341C57499C00302B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C3E6381C57499C00302B55 /* PBXTargetDependency */,
+			);
+			name = nameCardPadTests;
+			productName = nameCardPadTests;
+			productReference = 88C3E6361C57499C00302B55 /* nameCardPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88C3E6401C57499C00302B55 /* nameCardPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C3E6501C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadUITests" */;
+			buildPhases = (
+				88C3E63D1C57499C00302B55 /* Sources */,
+				88C3E63E1C57499C00302B55 /* Frameworks */,
+				88C3E63F1C57499C00302B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C3E6431C57499C00302B55 /* PBXTargetDependency */,
+			);
+			name = nameCardPadUITests;
+			productName = nameCardPadUITests;
+			productReference = 88C3E6411C57499C00302B55 /* nameCardPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C3E6171C57499B00302B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "佐藤憲匡";
+				TargetAttributes = {
+					88C3E61E1C57499B00302B55 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					88C3E6351C57499C00302B55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 88C3E61E1C57499B00302B55;
+					};
+					88C3E6401C57499C00302B55 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 88C3E61E1C57499B00302B55;
+					};
+				};
+			};
+			buildConfigurationList = 88C3E61A1C57499B00302B55 /* Build configuration list for PBXProject "nameCardPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C3E6161C57499B00302B55;
+			productRefGroup = 88C3E6201C57499B00302B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C3E61E1C57499B00302B55 /* nameCardPad */,
+				88C3E6351C57499C00302B55 /* nameCardPadTests */,
+				88C3E6401C57499C00302B55 /* nameCardPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C3E61D1C57499B00302B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */,
+				88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */,
+				88C3E6281C57499B00302B55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E6341C57499C00302B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E63F1C57499C00302B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C3E61B1C57499B00302B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3E6251C57499B00302B55 /* ViewController.swift in Sources */,
+				88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */,
+				88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E6321C57499C00302B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3E63B1C57499C00302B55 /* nameCardPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3E63D1C57499C00302B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C3E6461C57499C00302B55 /* nameCardPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88C3E6381C57499C00302B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C3E61E1C57499B00302B55 /* nameCardPad */;
+			targetProxy = 88C3E6371C57499C00302B55 /* PBXContainerItemProxy */;
+		};
+		88C3E6431C57499C00302B55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C3E61E1C57499B00302B55 /* nameCardPad */;
+			targetProxy = 88C3E6421C57499C00302B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88C3E6261C57499B00302B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C3E6271C57499B00302B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C3E62F1C57499B00302B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C3E6481C57499C00302B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88C3E6491C57499C00302B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C3E64B1C57499C00302B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nameCardPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88C3E64C1C57499C00302B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = nameCardPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88C3E64E1C57499C00302B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nameCardPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nameCardPad.app/nameCardPad";
+			};
+			name = Debug;
+		};
+		88C3E64F1C57499C00302B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = nameCardPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nameCardPad.app/nameCardPad";
+			};
+			name = Release;
+		};
+		88C3E6511C57499C00302B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nameCardPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nameCardPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		88C3E6521C57499C00302B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = nameCardPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = nameCardPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C3E61A1C57499B00302B55 /* Build configuration list for PBXProject "nameCardPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3E6481C57499C00302B55 /* Debug */,
+				88C3E6491C57499C00302B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C3E64A1C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3E64B1C57499C00302B55 /* Debug */,
+				88C3E64C1C57499C00302B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88C3E64D1C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3E64E1C57499C00302B55 /* Debug */,
+				88C3E64F1C57499C00302B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88C3E6501C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C3E6511C57499C00302B55 /* Debug */,
+				88C3E6521C57499C00302B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */,
+			);
+			currentVersion = 88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */;
+			path = nameCardPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88C3E6171C57499B00302B55 /* Project object */;
+}
