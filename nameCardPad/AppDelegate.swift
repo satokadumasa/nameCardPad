@@ -10,13 +10,21 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    let mainTabBarController: MainTabBarController = MainTabBarController()
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // TabBarControllerでの遷移を実装
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        // rootViewControllerにMainTabBarControllerを設定
+        self.window?.rootViewController = mainTabBarController
+        
+        self.window?.makeKeyAndVisible()
         return true
     }
 

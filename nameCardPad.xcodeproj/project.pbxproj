@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6221C57499B00302B55 /* AppDelegate.swift */; };
-		88C3E6251C57499B00302B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6241C57499B00302B55 /* ViewController.swift */; };
-		88C3E6281C57499B00302B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E6261C57499B00302B55 /* Main.storyboard */; };
 		88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */; };
 		88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62C1C57499B00302B55 /* Assets.xcassets */; };
 		88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */; };
 		88C3E63B1C57499C00302B55 /* nameCardPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E63A1C57499C00302B55 /* nameCardPadTests.swift */; };
 		88C3E6461C57499C00302B55 /* nameCardPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6451C57499C00302B55 /* nameCardPadUITests.swift */; };
+		88C3E6541C574A3A00302B55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6531C574A3A00302B55 /* MainViewController.swift */; };
+		88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA51C57C04F0070AFDD /* CardListViewController.swift */; };
+		88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */; };
+		88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA91C5933660070AFDD /* MainTabBarController.swift */; };
+		88FFB7241C59438800884AF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7231C59438800884AF1 /* MainView.swift */; };
+		88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		88C3E61F1C57499B00302B55 /* nameCardPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nameCardPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3E6221C57499B00302B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88C3E6241C57499B00302B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88C3E6271C57499B00302B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nameCardPad.xcdatamodel; sourceTree = "<group>"; };
 		88C3E62C1C57499B00302B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C3E62F1C57499B00302B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		88C3E6411C57499C00302B55 /* nameCardPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nameCardPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3E6451C57499C00302B55 /* nameCardPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nameCardPadUITests.swift; sourceTree = "<group>"; };
 		88C3E6471C57499C00302B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C3E6531C574A3A00302B55 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		88C97EA51C57C04F0070AFDD /* CardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardListViewController.swift; sourceTree = "<group>"; };
+		88C97EA91C5933660070AFDD /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		88FFB7231C59438800884AF1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				88C3E6221C57499B00302B55 /* AppDelegate.swift */,
-				88C3E6241C57499B00302B55 /* ViewController.swift */,
-				88C3E6261C57499B00302B55 /* Main.storyboard */,
+				88C97EA91C5933660070AFDD /* MainTabBarController.swift */,
+				88C3E6531C574A3A00302B55 /* MainViewController.swift */,
+				88FFB7231C59438800884AF1 /* MainView.swift */,
+				88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */,
+				88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */,
+				88C97EA51C57C04F0070AFDD /* CardListViewController.swift */,
 				88C3E62C1C57499B00302B55 /* Assets.xcassets */,
 				88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */,
 				88C3E6311C57499B00302B55 /* Info.plist */,
@@ -234,7 +246,6 @@
 			files = (
 				88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */,
 				88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */,
-				88C3E6281C57499B00302B55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88C3E6251C57499B00302B55 /* ViewController.swift in Sources */,
+				88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */,
+				88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */,
+				88FFB7241C59438800884AF1 /* MainView.swift in Sources */,
+				88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */,
+				88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */,
 				88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */,
 				88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */,
+				88C3E6541C574A3A00302B55 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88C3E6261C57499B00302B55 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88C3E6271C57499B00302B55 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -486,6 +494,7 @@
 				88C3E64C1C57499C00302B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88C3E64D1C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +503,7 @@
 				88C3E64F1C57499C00302B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88C3E6501C57499C00302B55 /* Build configuration list for PBXNativeTarget "nameCardPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +512,7 @@
 				88C3E6521C57499C00302B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
