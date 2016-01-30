@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6221C57499B00302B55 /* AppDelegate.swift */; };
-		88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */; };
 		88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62C1C57499B00302B55 /* Assets.xcassets */; };
 		88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */; };
 		88C3E63B1C57499C00302B55 /* nameCardPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E63A1C57499C00302B55 /* nameCardPadTests.swift */; };
@@ -17,6 +16,7 @@
 		88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA51C57C04F0070AFDD /* CardListViewController.swift */; };
 		88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */; };
 		88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C97EA91C5933660070AFDD /* MainTabBarController.swift */; };
+		88EB19501C5CB31D00560493 /* nameCardPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EB194E1C5CB31D00560493 /* nameCardPad.xcdatamodeld */; };
 		88FFB7241C59438800884AF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7231C59438800884AF1 /* MainView.swift */; };
 		88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,6 @@
 /* Begin PBXFileReference section */
 		88C3E61F1C57499B00302B55 /* nameCardPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nameCardPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3E6221C57499B00302B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nameCardPad.xcdatamodel; sourceTree = "<group>"; };
 		88C3E62C1C57499B00302B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88C3E62F1C57499B00302B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88C3E6311C57499B00302B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		88C97EA51C57C04F0070AFDD /* CardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
 		88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardListViewController.swift; sourceTree = "<group>"; };
 		88C97EA91C5933660070AFDD /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		88EB194F1C5CB31D00560493 /* nameCardPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nameCardPad.xcdatamodel; sourceTree = "<group>"; };
 		88FFB7231C59438800884AF1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,9 +115,9 @@
 				88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */,
 				88C97EA51C57C04F0070AFDD /* CardListViewController.swift */,
 				88C3E62C1C57499B00302B55 /* Assets.xcassets */,
+				88EB194E1C5CB31D00560493 /* nameCardPad.xcdatamodeld */,
 				88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */,
 				88C3E6311C57499B00302B55 /* Info.plist */,
-				88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */,
 			);
 			path = nameCardPad;
 			sourceTree = "<group>";
@@ -270,13 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB19501C5CB31D00560493 /* nameCardPad.xcdatamodeld in Sources */,
 				88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */,
 				88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */,
 				88FFB7241C59438800884AF1 /* MainView.swift in Sources */,
 				88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */,
 				88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */,
 				88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */,
-				88C3E62B1C57499B00302B55 /* nameCardPad.xcdatamodeld in Sources */,
 				88C3E6541C574A3A00302B55 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,12 +517,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		88C3E6291C57499B00302B55 /* nameCardPad.xcdatamodeld */ = {
+		88EB194E1C5CB31D00560493 /* nameCardPad.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */,
+				88EB194F1C5CB31D00560493 /* nameCardPad.xcdatamodel */,
 			);
-			currentVersion = 88C3E62A1C57499B00302B55 /* nameCardPad.xcdatamodel */;
+			currentVersion = 88EB194F1C5CB31D00560493 /* nameCardPad.xcdatamodel */;
 			path = nameCardPad.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
