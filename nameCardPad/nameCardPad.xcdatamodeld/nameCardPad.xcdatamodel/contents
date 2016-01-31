@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
     <entity name="CardDetail" syncable="YES">
+        <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="branchOffice" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="department" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="jobTitle" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="mobilePhone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="modifed" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="orgAddress" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="organization" optional="YES" attributeType="String" syncable="YES"/>
@@ -16,20 +18,23 @@
         <attribute name="orgMobilePhone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="orgPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="zipCode" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cardIndividualInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardIndividualInfo" inverseName="cardDetail" inverseEntity="CardIndividualInfo" syncable="YES"/>
+        <relationship name="cardType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardType" inverseName="cardDetail" inverseEntity="CardType" syncable="YES"/>
     </entity>
-    <entity name="CardIndividualInfo" syncable="YES">
+    <entity name="CardIndividualInfo" parentEntity="CardDetail" syncable="YES">
         <attribute name="addressPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="birthdayPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="branchOfficePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="cardDetailId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
-        <attribute name="carTypeId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
-        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cardDetailId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carTypeId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ciInfoId" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="departmentPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="emailAddressPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="jobTitlePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="mobilePhonePubFlag" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
-        <attribute name="modifed" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="namePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="namePubFlag" attributeType="Boolean" indexed="YES" syncable="YES"/>
         <attribute name="nickNamePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="orgAddressPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="organizationPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -37,17 +42,18 @@
         <attribute name="orgMobilePhonePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="orgPhoneNumberPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="phoneNumberPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="positionpubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="zipCodePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="cardDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardDetail" inverseName="cardIndividualInfo" inverseEntity="CardDetail" syncable="YES"/>
     </entity>
-    <entity name="CardType" syncable="YES">
-        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
-        <attribute name="modifed" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="CardType" parentEntity="CardDetail" syncable="YES">
+        <attribute name="cardTypeId" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="cTypeName" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="cardDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardDetail" inverseName="cardType" inverseEntity="CardDetail" syncable="YES"/>
     </entity>
     <elements>
-        <element name="CardDetail" positionX="-63" positionY="-18" width="128" height="285"/>
-        <element name="CardIndividualInfo" positionX="-54" positionY="99" width="128" height="330"/>
-        <element name="CardType" positionX="-36" positionY="153" width="128" height="105"/>
+        <element name="CardDetail" positionX="-63" positionY="-18" width="128" height="360"/>
+        <element name="CardIndividualInfo" positionX="-54" positionY="99" width="128" height="360"/>
+        <element name="CardType" positionX="-36" positionY="153" width="128" height="90"/>
     </elements>
 </model>
