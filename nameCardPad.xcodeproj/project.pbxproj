@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88542C9A1C5EDC6400362B85 /* nameCardPadCardIndividualInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C941C5EDC6400362B85 /* nameCardPadCardIndividualInfo+CoreDataProperties.swift */; };
+		88542C9B1C5EDC6400362B85 /* nameCardPadCardIndividualInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C951C5EDC6400362B85 /* nameCardPadCardIndividualInfo.swift */; };
+		88542C9C1C5EDC6400362B85 /* nameCardPadCardType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C961C5EDC6400362B85 /* nameCardPadCardType+CoreDataProperties.swift */; };
+		88542C9D1C5EDC6400362B85 /* nameCardPadCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C971C5EDC6400362B85 /* nameCardPadCardType.swift */; };
+		88542C9E1C5EDC6400362B85 /* nameCardPadCardDetail+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C981C5EDC6400362B85 /* nameCardPadCardDetail+CoreDataProperties.swift */; };
+		88542C9F1C5EDC6400362B85 /* nameCardPadCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88542C991C5EDC6400362B85 /* nameCardPadCardDetail.swift */; };
 		88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E6221C57499B00302B55 /* AppDelegate.swift */; };
 		88C3E62D1C57499B00302B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62C1C57499B00302B55 /* Assets.xcassets */; };
 		88C3E6301C57499B00302B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C3E62E1C57499B00302B55 /* LaunchScreen.storyboard */; };
@@ -39,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88542C811C5EDC1D00362B85 /* nameCardPad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nameCardPad-Bridging-Header.h"; sourceTree = "<group>"; };
+		88542C941C5EDC6400362B85 /* nameCardPadCardIndividualInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "nameCardPadCardIndividualInfo+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		88542C951C5EDC6400362B85 /* nameCardPadCardIndividualInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameCardPadCardIndividualInfo.swift; sourceTree = SOURCE_ROOT; };
+		88542C961C5EDC6400362B85 /* nameCardPadCardType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "nameCardPadCardType+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		88542C971C5EDC6400362B85 /* nameCardPadCardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameCardPadCardType.swift; sourceTree = SOURCE_ROOT; };
+		88542C981C5EDC6400362B85 /* nameCardPadCardDetail+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "nameCardPadCardDetail+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		88542C991C5EDC6400362B85 /* nameCardPadCardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nameCardPadCardDetail.swift; sourceTree = SOURCE_ROOT; };
 		88C3E61F1C57499B00302B55 /* nameCardPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nameCardPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C3E6221C57499B00302B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88C3E62C1C57499B00302B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88542CA01C5EDC9200362B85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88542C941C5EDC6400362B85 /* nameCardPadCardIndividualInfo+CoreDataProperties.swift */,
+				88542C951C5EDC6400362B85 /* nameCardPadCardIndividualInfo.swift */,
+				88542C961C5EDC6400362B85 /* nameCardPadCardType+CoreDataProperties.swift */,
+				88542C971C5EDC6400362B85 /* nameCardPadCardType.swift */,
+				88542C981C5EDC6400362B85 /* nameCardPadCardDetail+CoreDataProperties.swift */,
+				88542C991C5EDC6400362B85 /* nameCardPadCardDetail.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		88C3E6161C57499B00302B55 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +117,7 @@
 				88C3E6391C57499C00302B55 /* nameCardPadTests */,
 				88C3E6441C57499C00302B55 /* nameCardPadUITests */,
 				88C3E6201C57499B00302B55 /* Products */,
+				88542C811C5EDC1D00362B85 /* nameCardPad-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +134,7 @@
 		88C3E6211C57499B00302B55 /* nameCardPad */ = {
 			isa = PBXGroup;
 			children = (
+				88542CA01C5EDC9200362B85 /* Models */,
 				88C3E6221C57499B00302B55 /* AppDelegate.swift */,
 				88C97EA91C5933660070AFDD /* MainTabBarController.swift */,
 				88C3E6531C574A3A00302B55 /* MainViewController.swift */,
@@ -274,10 +302,16 @@
 				88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */,
 				88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */,
 				88FFB7241C59438800884AF1 /* MainView.swift in Sources */,
+				88542C9E1C5EDC6400362B85 /* nameCardPadCardDetail+CoreDataProperties.swift in Sources */,
+				88542C9D1C5EDC6400362B85 /* nameCardPadCardType.swift in Sources */,
 				88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */,
+				88542C9A1C5EDC6400362B85 /* nameCardPadCardIndividualInfo+CoreDataProperties.swift in Sources */,
 				88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */,
+				88542C9F1C5EDC6400362B85 /* nameCardPadCardDetail.swift in Sources */,
+				88542C9B1C5EDC6400362B85 /* nameCardPadCardIndividualInfo.swift in Sources */,
 				88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */,
 				88C3E6541C574A3A00302B55 /* MainViewController.swift in Sources */,
+				88542C9C1C5EDC6400362B85 /* nameCardPadCardType+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = nameCardPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nameCardPad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -420,10 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = nameCardPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = multiplepad.com.nameCardPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nameCardPad-Bridging-Header.h";
 			};
 			name = Release;
 		};

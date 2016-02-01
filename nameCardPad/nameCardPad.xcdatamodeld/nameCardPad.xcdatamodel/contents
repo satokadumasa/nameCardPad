@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
-    <entity name="CardDetail" syncable="YES">
+    <entity name="CardDetail" representedClassName="nameCardPadCardDetail" syncable="YES">
         <attribute name="birthday" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="branchOffice" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
@@ -23,7 +23,7 @@
         <relationship name="cardIndividualInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardIndividualInfo" inverseName="cardDetail" inverseEntity="CardIndividualInfo" syncable="YES"/>
         <relationship name="cardType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardType" inverseName="cardDetail" inverseEntity="CardType" syncable="YES"/>
     </entity>
-    <entity name="CardIndividualInfo" parentEntity="CardDetail" syncable="YES">
+    <entity name="CardIndividualInfo" representedClassName="nameCardPadCardIndividualInfo" parentEntity="CardDetail" syncable="YES">
         <attribute name="addressPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="birthdayPubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="branchOfficePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -46,7 +46,7 @@
         <attribute name="zipCodePubFlag" optional="YES" attributeType="Boolean" syncable="YES"/>
         <relationship name="cardDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardDetail" inverseName="cardIndividualInfo" inverseEntity="CardDetail" syncable="YES"/>
     </entity>
-    <entity name="CardType" parentEntity="CardDetail" syncable="YES">
+    <entity name="CardType" representedClassName="nameCardPadCardType" parentEntity="CardDetail" syncable="YES">
         <attribute name="cardTypeId" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="cTypeName" attributeType="String" indexed="YES" syncable="YES"/>
         <relationship name="cardDetail" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CardDetail" inverseName="cardType" inverseEntity="CardDetail" syncable="YES"/>
