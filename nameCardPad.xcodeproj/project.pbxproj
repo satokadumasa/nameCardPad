@@ -22,6 +22,9 @@
 		88EB19501C5CB31D00560493 /* nameCardPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88EB194E1C5CB31D00560493 /* nameCardPad.xcdatamodeld */; };
 		88FFB7241C59438800884AF1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7231C59438800884AF1 /* MainView.swift */; };
 		88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */; };
+		DDC814901C6A430A00C6CD91 /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8148F1C6A430A00C6CD91 /* CardDetail.swift */; };
+		DDC814931C6A443C00C6CD91 /* CardPublication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC814921C6A443C00C6CD91 /* CardPublication.swift */; };
+		DDC814951C6A44BD00C6CD91 /* MyCardAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC814941C6A44BD00C6CD91 /* MyCardAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		88FFB7231C59438800884AF1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardAddViewController.swift; sourceTree = "<group>"; };
 		D04913FD1D3572D9464FFA09 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC8148F1C6A430A00C6CD91 /* CardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		DDC814921C6A443C00C6CD91 /* CardPublication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPublication.swift; sourceTree = "<group>"; };
+		DDC814941C6A44BD00C6CD91 /* MyCardAddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardAddView.swift; sourceTree = "<group>"; };
 		E2A664438F5025AE3EF6870B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +114,8 @@
 		88542CA01C5EDC9200362B85 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DDC8148F1C6A430A00C6CD91 /* CardDetail.swift */,
+				DDC814921C6A443C00C6CD91 /* CardPublication.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -115,6 +123,8 @@
 		88542CA11C5EDE1B00362B85 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				88FFB7231C59438800884AF1 /* MainView.swift */,
+				DDC814941C6A44BD00C6CD91 /* MyCardAddView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -150,7 +160,6 @@
 				88C3E6221C57499B00302B55 /* AppDelegate.swift */,
 				88C97EA91C5933660070AFDD /* MainTabBarController.swift */,
 				88C3E6531C574A3A00302B55 /* MainViewController.swift */,
-				88FFB7231C59438800884AF1 /* MainView.swift */,
 				88C97EA71C57C0620070AFDD /* MyCardListViewController.swift */,
 				88FFB7251C59474900884AF1 /* MyCardAddViewController.swift */,
 				88C97EA51C57C04F0070AFDD /* CardListViewController.swift */,
@@ -373,12 +382,15 @@
 			files = (
 				88EB19501C5CB31D00560493 /* nameCardPad.xcdatamodeld in Sources */,
 				88FFB7261C59474900884AF1 /* MyCardAddViewController.swift in Sources */,
+				DDC814931C6A443C00C6CD91 /* CardPublication.swift in Sources */,
 				88C97EA81C57C0620070AFDD /* MyCardListViewController.swift in Sources */,
+				DDC814951C6A44BD00C6CD91 /* MyCardAddView.swift in Sources */,
 				88FFB7241C59438800884AF1 /* MainView.swift in Sources */,
 				88C97EA61C57C04F0070AFDD /* CardListViewController.swift in Sources */,
 				88C97EAA1C5933660070AFDD /* MainTabBarController.swift in Sources */,
 				88C3E6231C57499B00302B55 /* AppDelegate.swift in Sources */,
 				88C3E6541C574A3A00302B55 /* MainViewController.swift in Sources */,
+				DDC814901C6A430A00C6CD91 /* CardDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
