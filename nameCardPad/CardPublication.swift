@@ -11,13 +11,13 @@ import RealmSwift
 
 class CardPublication: Object {
     dynamic var id = 0
-    dynamic var CardDetailId = 0
-    dynamic var name = ""
-    dynamic var nickName = ""
-    dynamic var birthday : NSDate!
-    dynamic var email = 0
-    dynamic var mobilePhone = 0
-    dynamic var Phone = 0
+    dynamic var cardDetailId = 0
+    dynamic var nameFlag = ""
+    dynamic var nickNameFlag = ""
+    dynamic var birthdayFlag : NSDate!
+    dynamic var emailFlag = 0
+    dynamic var mobilePhoneFlag = 0
+    dynamic var PhoneFlag = 0
     dynamic var created: NSDate!
     
     //primary keyに設定します
